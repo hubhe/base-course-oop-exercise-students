@@ -1,9 +1,10 @@
-package AerialVehicles;
+package AerialVehicles.UAVs.Hermes;
 
-import Missions.AttackMission;
 import Missions.BdaMission;
+import Missions.IntelligenceMission;
 import Missions.Mission;
 import Missions.MissionTypeException;
 
-public class F16{
+public class Zik {
+
 }

@@ -1,10 +1,9 @@
-package AerialVehicles;
+package AerialVehicles.FighterJets;
 
-import Missions.BdaMission;
+import Missions.AttackMission;
 import Missions.IntelligenceMission;
 import Missions.Mission;
 import Missions.MissionTypeException;
 
-public class Zik {
-
+public class F15{
 }
