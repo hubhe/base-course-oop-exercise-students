@@ -18,7 +18,7 @@ public class testF15 {
 
     @Test
     public void testAttack(){
-        String expectedMessage = "Donald Duck: F15 Attacking suspect house with: Spice250X2";
+        String expectedMessage = "Donald Duck: F15 Attacking suspect house with: Spice250";
         String message = f15.attack();
         assertEquals(message,expectedMessage);
     }

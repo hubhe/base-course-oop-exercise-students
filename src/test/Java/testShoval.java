@@ -19,7 +19,7 @@ public class testShoval {
     @Test
     public void testAttack() throws MissionTypeException {
         shoval.setMission(attackMission);
-        String expectedMessage = "Lagertha: Shoval Attacking suspect house with: Spice250X2";
+        String expectedMessage = "Lagertha: Shoval Attacking suspect house with: Spice250";
         String message = shoval.attack();
         assertEquals(message, expectedMessage);
     }

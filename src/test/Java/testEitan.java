@@ -18,7 +18,7 @@ public class testEitan {
 
     @Test
     public void testAttack(){
-        String expectedMessage = "Sheleg: Eitan Attacking suspect house with: nimrodX1";
+        String expectedMessage = "Sheleg: Eitan Attacking suspect house with: nimrod";
         String message = eitan.attack();
         assertEquals(message, expectedMessage);
     }

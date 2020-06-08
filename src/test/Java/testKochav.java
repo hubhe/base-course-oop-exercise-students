@@ -19,7 +19,7 @@ public class testKochav {
     @Test
     public void testAttack() throws MissionTypeException {
         kochav.setMission(attackMission);
-        String expectedMessage = "Snoop: Kochav Attacking suspect house with: DlilaX3";
+        String expectedMessage = "Snoop: Kochav Attacking suspect house with: Dlila";
         String message = kochav.attack();
         assertEquals(message, expectedMessage);
     }

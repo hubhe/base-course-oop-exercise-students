@@ -22,7 +22,7 @@ public class testF16 {
 
     @Test
     public void testAttack(){
-        String expectedMessage = "Tuli: F16 Attacking suspect house with: Spice250X2";
+        String expectedMessage = "Tuli: F16 Attacking suspect house with: Spice250";
         String message = f16.attack();
         assertEquals(message,expectedMessage);
     }
